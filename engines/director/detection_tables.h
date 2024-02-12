@@ -269,6 +269,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "legendsofoz",		"The Legends of Oz" },
 	{ "letsdiscover",		"Let's Discover" },
 	{ "letters",			"Letters" },
+	{ "lightsout3d",		"Lights Out 3D" },
 	{ "louiscatorze",		"Louis Cat Orze: The Mystery of the Queen's Necklace" },
 	{ "luxor",				"Secrets of the Luxor" },
 	{ "madcc12",			"Madeline Classroom Companion: 1st & 2nd Grade" },
@@ -591,6 +592,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "iptr",				"I Photograph to Remember" },
 	{ "isscommerce",		"International Space Station: Space Commercialization" },
 	{ "itc",				"Internet the City: A Guided Tour Through the Internet" },
+	{ "itwh",				"Inside the White House" },
 	{ "journey2life",		"The Journey to Life" },
 	{ "journey2source",		"Journey to the Source: An Expedition along the Yangtze River" },
 	{ "klondikegold",		"Klondike Gold - An Interactive History" },
@@ -631,6 +633,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "planetstrass",		"Pl@net" },
 	{ "potala",             "1000 Years Potala" },
 	{ "princetonsat98",		"The Princeton Review: Inside the SAT '98" },
+	{ "qtvrshowcase",		"QuickTime VR Showcase" },
 	{ "renaissance",		"The Renaissance: Winds of Change" },
 	{ "revwar",				"Revolutionary War Picture CD" },
 	{ "rodneyab",			"Rodney's Art Brain" },
@@ -785,6 +788,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "ebntelebreakdown",	"EBN: Telecommunication Breakdown" },
 	{ "im7s7s",				"Iron Maiden: Seventh Son Of A Seventh Son" }, // 1998 rerelease
 	{ "imesceneryfish",		"I Mother Earth: Scenery and Fish" },
+	{ "kenishiiextra",		"Ken Ishii: Extra" },
 	{ "listen7up",			"Listen 7UP! Music Mix CD: Volume 1" },
 	{ "nyack",				"Nyack 11-Track Player" },
 	{ "princerave",			"Prince: Rave Un2 the Joy Fantastic" },
@@ -1712,18 +1716,31 @@ static const PlainGameDescriptor directorGames[] = {
 	// Press kits with Director content
 	{ "bvi1997",			"Buena Vista International 1997 Promotional Interactive CD-ROM" },
 	{ "bluesbros2000",		"Blues Brothers 2000 Full Promotion" },
+	{ "chickenrunpresskit", 	"Chicken Run Press Kit Photography CD" },
 	{ "easports2000",		"EA Sports 2000 (E3 1999)" },
+	{ "herculespresskit",		"Hercules Multimedia Press Kit" },
 	{ "hoaddams2",			"Hollywood Online: Addams Family Values" },
+	{ "hoalldogs2",			"Hollywood Online: All Dogs Go to Heaven 2" },
 	{ "hoangus",			"Hollywood Online: Angus" },
+	{ "hobarbwire",			"Hollywood Online: Barb Wire" },
 	{ "hodolores",			"Hollywood Online: Dolores Claiborne" },
+	{ "hohackers",			"Hollywood Online: Hackers" },
+	{ "hojuryduty",			"Hollywood Online: Jury Duty" },
+	{ "homnemonic",			"Hollywood Online: Johnny Mnemonic" },
 	{ "horobroy",			"Hollywood Online: Rob Roy: Legend of the Mist" },
 	{ "hostargate",			"Hollywood Online: Stargate" },
 	{ "hothenet",			"Hollywood Online: The Net" },
 	{ "hotrekgens",			"Hollywood Online: Star Trek Generations"},
+	{ "hunchbackpresskit",		"Disney's The Hunchback of Notre Dame - Multimedia CD-ROM Press Kit" },
+	{ "hunchbacksndtrkpresskit", 	"Disney's The Hunchback of Notre Dame - Soundtrack Press Kit" },
 	{ "leepipes",			"Lee Pipes Press Kit" },
 	{ "mulanpresskit",		"Mulan Multimedia Press Kit" },
+	{ "sharktalepresskit",		"Shark Tale CD Press Kit" },
 	{ "stalker",			"S.T.A.L.K.E.R.: Shadow of Chernobyl" },
 	{ "thesims",			"The Sims Electronic Press Kit" },
+	{ "toystorygamepresskit", 	"Toy Story Video Game Press Kit" },
+	{ "toystorypresskit",		"Toy Story Multimedia CD-ROM Press Kit" },
+	{ "toystorysndtrkpresskit", 	"Toy Story Soundtrack Press Kit" },
 	{ "vug2005",			"Vivendi Universal Games 2005 E3 DPK" },
 	{ "westwood",			"Westwood Studios Digital Press Kit 2000" },
 
@@ -2556,11 +2573,19 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACGAME1("hoaddams2", "", "AddamsFamilyInt", "7f443f2e63fd497a9ad85b10dc880a91", 1380784, 313),
 
+	WINGAME1("hoalldogs2", "", "DOGS.EXE", "t:04e7bfa31c4f92745e472e175b85867a", 2449888, 313),
+
 	MACGAME1("hoangus", "", "Angus IPK", "r:2ce360c9ea2da80a2c6d1040b0ad92dd", 2029599, 313),
 	WINGAME1("hoangus", "", "ANGUS.EXE", "7c8230a804abf9353b05627a675b5ffb", 2383326, 313),
 
 	MACGAME1("hodolores", "", "Dolores Claiborne Interactive", "r:7f443f2e63fd497a9ad85b10dc880a91", 1475680, 313),
 	WINGAME1("hodolores", "", "DOLRES.EXE", "65d06b5fef155a2473434571aff5bc29", 1671516, 313),
+
+	WINGAME1("hohackers", "", "HACKERS.EXE", "t:7d5b476cbf998c72474f81d6601bf238", 2189900, 313),
+
+	WINGAME1("hojuryduty", "", "JRYDUTY.EXE", "t:6539ce0feb4e10c50935cbd3e59b89ba", 1403957, 313),
+
+	WINGAME1("homnemonic", "", "MNEMONIC.EXE", "t:43a6de594ae5b0f8772e022a17326d77", 2406129, 313),
 
 	MACGAME1("hostargate", "", "Stargate Interactive", "r:7f443f2e63fd497a9ad85b10dc880a91", 1394098, 313),
 
@@ -4310,6 +4335,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	WINGAME2("hkbigfun", "", "KITTY.EXE", "42e600e8a917de593f4048428ec8d8b8", 703689,
 							 "KINTRO",	  "b3fc8f8073f442573a371729d242c6c6", 971508, 404),
 
+	WINGAME1("hobarbwire", "", "BARBWIRE.EXE",	"t:b74311ffe1291108240e64d7f191185c", 2165765, 404),
+
 	MACGAME1("horobroy", "", "Rob Roy",		"r:01be45e7241194dad07938e7059b88e3", 483126, 404),
 	WINGAME1("horobroy", "", "ROBROY.EXE",	"d:65d06b5fef155a2473434571aff5bc29", 2047746, 400),
 	WINGAME1("horobroy", "", "ROBROY.EXE",	"d:6b339ff6cb7a40e4dd794049ef93600d", 29786023, 404),
@@ -4355,6 +4382,10 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1("hunchback", "", "Hunchback",			   "r:17efee018a660458fae80de4364021ac", 481226, 404),
 	WINGAME2("hunchback", "", "HUNCH.EXE",			   "t:27d1a388006a4b2d63b1810248a55b14", 25837061,
 							  "QTMOVIES/HUNCHIN3.MOV", "t:f3ce12ed7e2cd0a52a957388c074e916", 384506, 404),
+
+	WINGAME2("hunchbackpresskit", "", "PRESSKIT.EXE", "t:50a775589388b19788578906cae388de", 690293,
+									  "MMK.DIR", "7f2d53e7529b0846fe49502470ea3c8a", 8019106, 404),
+	WINGAME1("hunchbacksndtrkpresskit", "", "RECORDS.EXE", "t:50a775589388b19788578906cae388de", 690293, 404),
 
 	WINGAME2("id4p1", "", "SUPREME.EXE", "629eb9a5d991a2dbe380804e8c37043a", 1664965,
 						  "ALIEN.ICO",	 "fcd97560b8b3f7404f9119bc06bbd5b5", 766, 404),
@@ -4490,6 +4521,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// found on Myst windows CD-ROM from 1996
 	WINDEMO1t("it1d", "Demo", "in1demo.exe", "t:b6c6fd5d3cdb941f63128e13716c2f68", 2597223, 400),
 
+	WINGAME1("itwh", "", "ITWH.EXE", "t:fe00567e83ac1ade7d0a6ce60b083a4e", 1755665, 404),
+
 	MACGAME1("iwave", "Issue 1", "!",		  "r:ae7178ba5dd9dcd15fb7a27cd99089b2", 484133, 404),
 	WINGAME1("iwave", "Issue 1", "IWAVE.EXE", "d:67aa1f75dc23e071e5325be04e9738a6", 690955, 404),
 
@@ -4584,6 +4617,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	WINDEMO2_l("karuta", "Demo", "S.EXE",		 "aa3900a47af9c2b5f066fbbff43dd1f3", 746989,
 								 "OPENING4.DIR", "89beafaa3b41f1c533d13fb378d5eebf", 3995204, Common::JA_JPN, 404),
 
+	WINGAME2_l("kenishiiextra", "", "EXTRA.EXE", "t:2cba5547892b9fc277518b9568bb942f", 11315523,
+									"CAST/14S-22_0.AIF", "t:8cebd84b12af3640d143f023ac3e6943", 1229300, Common::JA_JPN, 404),
+
 	MACDEMO1_l("kenji", "Demo", "KENJI", "4577dd3eadc467a986ab172d90871b22", 502033, Common::JA_JPN, 404),
 
 	WINGAME2("kfk", "", "KFK.EXE", 		"75a9f8838cd654701afdd50e68cf5736", 2696447,
@@ -4642,6 +4678,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	WINGAME1t("lifemysteries", "v1.01", "_SETUP/LGM/LGM.EXE", "c9ffbacdc78482eeaf644730a2fedc15", 1024075, 404),
 	WINGAME1t("lifemysteries", "Demo", "LGMDEM.EXE", "dd13662fa71a413c2ba9228ea73e5448", 5539283, 404),
+
+	WINGAME2("lightsout3d", "", "LIGHTS.EXE", "t:31bb5fa4f4f11c2cba16f6d9f0297213", 691061,
+								"LIGHTOUT.DIR", "t:bf0d40e945215e383a56b9ab555c7396", 1945718, 404),
 
 	// full game is DOS only, not Director
 	MACDEMO1("lion", "Demo", "Lion Demo", "01be45e7241194dad07938e7059b88e3", 484284, 400),
@@ -5533,6 +5572,10 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACGAME1("toyota95", "", "Toyota 95", "01be45e7241194dad07938e7059b88e3", 486985, 404),
 
+	WINGAME1("toystorygamepresskit", "", "TOYGAME.EXE", "t:24605f2bf83ce7f488d99b301863b573", 2697791, 404),
+	WINGAME1("toystorypresskit", "", "TOYSTORY.EXE", "t:d1f7cdca85d04f26e26c6e2d8377003a", 6717449, 404),
+	WINGAME1("toystorysndtrkpresskit", "", "TOYMUSIC.EXE", "t:ed7fd1757a3b4ab0c1ece427ffe34611", 2166955, 404),
+
 	// Developed by Zenda Studio
 	MACGAME1("travelrama", "", "Travelrama - PowerMac ONLY!/Travelrama PowerMac", "d8b8e42c2d9875b47ea762ca3fd45122", 128137, 404),
 	WINGAME1("travelrama", "", "TRAMAWIN/TRAMA.EXE", "t:52d68e3a8d54b2091dd58ddc464c850d", 698215, 404),
@@ -6339,6 +6382,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// From MacFormat #42, original file name 'HeadHunter™'
 	MACGAME1("headhunter", "", "xn--HeadHunter-398e", "315c637cac0a4b735dc6e3f7cb1842f7", 721143, 500),
 
+	WINGAME1("herculespresskit", "", "HERCULES.EXE", "t:8cc38b1846c2312dd3330c1ca836fccf", 917967, 500),
+
 	// Hoffman + Associates previews. Found on Nikolai in Outer Space.
 	WINGAME1("hoffman", "", "HARUNNER.EXE", "3460ad87d2ba57104e2810a77b53c220", 1458773, 500),
 
@@ -6743,6 +6788,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACDEMO1("pyst2", "Preview", "Driven Preview", "8a093239a2bbfd73269bc70f873c69b8", 107835, 501),
 	WINDEMO1t("pyst2", "Preview", "DRIVEN32.EXE", "43be05ea19a1b52a86c6ad86a71ce0ad", 1464207, 501), // Star Warped
 	WINDEMO1("pyst2", "Preview", "DRIVEN32.EXE", "1a7acbba10a7246ba58c1d53fc7203f5", 1464241, 501), // X-Fools
+
+	MACGAME1("qtvrshowcase", "", "QuickTime VR Showcase", "r:231d3041df162be4a0ddd36a74eb03b6", 718125, 501),
 
 	MACGAME1_l("ravensburger", "", "Ravensburger Demo", "aaebd553081fa7382390dc8366623035", 720369, Common::DE_DEU, 501),
 	WINGAME2_l("ravensburger", "", "START.EXE",			"65ef7246e9ab04aff59fb734e9551727", 1076085,
@@ -8480,6 +8527,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1("chemicus", "", "Chemicus",	 "r:8c1b4ddb1adff89deaba119f7cf8df7b", 266213, 800),
 	WINGAME1("chemicus", "", "Chemicus.exe", "t:439dd9480e4383f267d951d2f0db6e0a", 57944, 800),
 
+	WINGAME1("chickenrunpresskit", "", "ChickenRun.exe", "t:bd07927665da940ef24810481d9bc52a", 3014254, 800),
+
 	MACGAME1("cmi", "CM38/10/01", "CMi_38_Mac", "f065c75691d28120e9f630448c3b1b71", 1225735, 800),
 	WINGAME1("cmi", "CM38/10/01", "CMi_38_Win.exe", "e24d4bab978b1a5c2326d2c56cf4d781", 2514361, 800),
 
@@ -9084,6 +9133,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1_l("sethi3", "OS X", "Start Me OSX", "d483e955df901222145267d2ad729ea2", 229696, Common::DE_DEU, 900),
 	WINGAME2_l("sethi3", "", "StartMe.exe",		 "c612aa43e7ef55aa4fd2e1085fb1ef7a", 2186964,
 							 "StartMe.dxr",		 "55248d9db7aa326eb740b2532ba83252", 15584, Common::DE_DEU, 900),
+
+	WINGAME1("sharktalepresskit", "", "Shark_Tale.exe", "t:91a522db4a458e0500adbfccf92ca889", 2877664, 900),
 
 	WINGAME1("stalker", "Press Kit", "Stalker.exe", "c612aa43e7ef55aa4fd2e1085fb1ef7a", 55314588, 900),
 
